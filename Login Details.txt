@@ -1,0 +1,2 @@
+Email Address : admin@garment.local
+Password : password

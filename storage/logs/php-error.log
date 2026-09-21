@@ -1,0 +1,31 @@
+[16-Sep-2026 05:38:11 Europe/Berlin] [GIMS API BOM] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.deleted_at' in 'where clause'
+[17-Sep-2026 14:20:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garment_inventory_db.users' doesn't exist in C:\xampp\htdocs\garment-inventory\includes\auth.php:41
+Stack trace:
+#0 C:\xampp\htdocs\garment-inventory\includes\auth.php(41): PDO->prepare('SELECT u.*, r.n...')
+#1 C:\xampp\htdocs\garment-inventory\login.php(23): attemptLogin('admin@garment.l...', 'password')
+#2 {main}
+  thrown in C:\xampp\htdocs\garment-inventory\includes\auth.php on line 41
+[17-Sep-2026 14:20:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garment_inventory_db.users' doesn't exist in C:\xampp\htdocs\garment-inventory\includes\auth.php:41
+Stack trace:
+#0 C:\xampp\htdocs\garment-inventory\includes\auth.php(41): PDO->prepare('SELECT u.*, r.n...')
+#1 C:\xampp\htdocs\garment-inventory\login.php(23): attemptLogin('admin@garment.l...', 'password')
+#2 {main}
+  thrown in C:\xampp\htdocs\garment-inventory\includes\auth.php on line 41
+[17-Sep-2026 14:20:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garment_inventory_db.users' doesn't exist in C:\xampp\htdocs\garment-inventory\includes\auth.php:41
+Stack trace:
+#0 C:\xampp\htdocs\garment-inventory\includes\auth.php(41): PDO->prepare('SELECT u.*, r.n...')
+#1 C:\xampp\htdocs\garment-inventory\login.php(23): attemptLogin('admin@garment.l...', 'password')
+#2 {main}
+  thrown in C:\xampp\htdocs\garment-inventory\includes\auth.php on line 41
+[17-Sep-2026 14:22:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garment_inventory_db.users' doesn't exist in C:\xampp\htdocs\garment-inventory\includes\auth.php:41
+Stack trace:
+#0 C:\xampp\htdocs\garment-inventory\includes\auth.php(41): PDO->prepare('SELECT u.*, r.n...')
+#1 C:\xampp\htdocs\garment-inventory\login.php(23): attemptLogin('admin@garment.l...', 'password')
+#2 {main}
+  thrown in C:\xampp\htdocs\garment-inventory\includes\auth.php on line 41
+[17-Sep-2026 14:22:17 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'garment_inventory_db.users' doesn't exist in C:\xampp\htdocs\garment-inventory\includes\auth.php:41
+Stack trace:
+#0 C:\xampp\htdocs\garment-inventory\includes\auth.php(41): PDO->prepare('SELECT u.*, r.n...')
+#1 C:\xampp\htdocs\garment-inventory\login.php(23): attemptLogin('admin@garment.l...', 'password')
+#2 {main}
+  thrown in C:\xampp\htdocs\garment-inventory\includes\auth.php on line 41
